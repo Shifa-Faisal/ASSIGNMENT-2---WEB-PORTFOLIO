@@ -1,0 +1,50 @@
+<%- include ./partials/header.ejs %>
+<%- include ./partials/main_nav.ejs %>
+
+<p> If you have any questions, concerns ornjust want to chat reach out to me here:</p>
+<section>
+    <div id="wrapper">
+        <!--Heading of form to inform user-->
+        <h1 style="color:#BC2029; text-align: center;"> Query & Feedback Form </h1>
+              
+        <!--Form-->
+        <form 
+        action="mailto:shifafaisal0808@gmail.com?subject=Feedback on website"
+        enctype="text/plain"
+        method="post"
+        name="Form">
+        <!--Call to action: owner gets email sent when user fills out form-->
+        <!--Post: sumbit data--> 
+                
+        <!--Adding text fields-->
+        <!-- Removed duplicate empty input field for name -->
+        <!--Basic contact information for user collection-->
+        <p><label for="name"> Name: </label> 
+        <!--Text input-->
+        <input type="text" name="name" placeholder="Enter your name" size="32" required></p>
+
+        <!--Email input--> 
+        <p><label for="email"> Email: </label>
+        <input type="email" name="email" placeholder="Enter your email" size="32" required></p>
+
+        <!--Need to add <br> for allowing to type more amount of text that will be visible to user-->
+        <p><label for="message"> Message, concern or feedback: </label><br>
+        <textarea name="message" cols="65" rows="7" placeholder="Enter your message for the ownwer of the website" required></textarea></p>
+
+        <!--Dropdown menu question for involving different type o engagement-->
+        <p><label for="why"> Primary reason for visiting my portfolio:</label>
+            <select name="why">
+                <option value="Exploring my skills"> Exploring my skills </option>
+                <option value="Looking for collaboration"> Looking for collaboration </option>
+                <option value="other"> Other </option>
+            </select>
+        </p>
+
+        <!--Reset and submit buttons for ending users interaction with the form page-->
+        <p><input type="submit" value="Submit"/></p>
+        <p><input type="reset" value="Reset form fields"/></p>
+
+        </form>
+    </div>
+</section>
+<%- include ./partials/footer.ejs %>

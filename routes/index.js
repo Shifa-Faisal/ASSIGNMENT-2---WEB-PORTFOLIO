@@ -11,22 +11,17 @@ router.get('/home', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-/* GET About page. */
+/* GET about page. */
 router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About us' });
 });
 
-/* GET products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+/* GET projects page. */
+router.get('/porjects', function(req, res, next) {
+  res.render('index', {title: 'Projects' });
 });
 
-/* GET Services page. */
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-});
-
-/* GET home page. */
+/* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact us' });
 });

@@ -1,17 +1,17 @@
 body {
-    margin: 20px;
-    color: navy;
-    background-color: lightblue;
+    margin: 10px;
+    color: rgb(32, 46, 109);
+    background-color: rgb(126, 130, 247);
+
 
 h1 {
-    color: blue;
+    color: rgb(0, 0, 92);
     text-align: center;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
-    color: deeppink;
+    color: rgb(255, 255, 255);
     padding: 10px;
-;
 }

@@ -1,29 +1,38 @@
 <%- include ./partials/header.ejs %>
 <%- include ./partials/main_nav.ejs %>
 
+<style>
+  background-color: #6ca6d9;
+  color: #022340;
+</style>
+
 <h1>About Me</h1>
 
 <div class="intro-section">
-            <article>
-                <p>Hello! I’m Shifa Faisal, a Networking IT and Security student with Pakistani roots who is passionate about cybersecurity. I enjoy being creative through coding with Python and working on networking and IT skills. In my free time, I like photography and video editing because they let me express myself in different ways. I’m excited to keep learning and growing in both technology and creativity. Feel free to explore my portfolio and reach out if you have any questions or opportunities!</p>
-            </article>
-            <!--Dsiaplying image relating to introduction-->
-            <figure class="intro-img">
-                <img src="my-intro-image.jpg" alt="Picture of Shifa Faisal" />
-            </figure>
-        </div>
+  <article>
+    <p>
+      Hello! I’m Shifa Faisal, a Networking IT and Security student with Pakistani roots who is passionate about cybersecurity. 
+      I enjoy being creative through coding with Python and working on networking and IT skills. 
+      In my free time, I like photography and video editing because they let me express myself in different ways. 
+      I’m excited to keep learning and growing in both technology and creativity. 
+      Feel free to explore my portfolio and reach out if you have any questions or opportunities!
+    </p>
+  </article>
 
-        <!--Video section to show a video about me -->
-        <h3>Here is a video describing me and bit of videography:</h3>
-        <figure class="video-section">
-            <video width="320" height="240" controls preload>
-                <source src="my-intro-video.mp4" type="video/mp4" />
-                <source src="my-intro-video.ogg" type="video/ogg" />
-                Your browser does not support the video tag.
-                <!--Some browsers may not support the video; replacemtn text-->
-            </video>
-        </figure>
-]    </div>
+  <!-- Displaying image relating to introduction -->
+  <figure class="intro-img">
+    <img src="/images/my-intro-image.jpeg" alt="Picture of Shifa Faisal">
+  </figure>
+</div>
 
-<p> Hi I am Shifa Faisal, a student working her way to a Bachelor's of Information Technology.</p>
+<!-- Video section -->
+<h3>Here is a video describing me and a bit of videography:</h3>
+<figure class="video-section">
+  <video width="320" height="240" controls preload>
+    <source src="/images/my-intro-video.mp4" type="video/mp4" />
+    <source src="/images/my-intro-video.ogg" type="video/ogg" />
+    Your browser does not support the video tag.
+  </video>
+</figure>
+
 <%- include ./partials/footer.ejs %>

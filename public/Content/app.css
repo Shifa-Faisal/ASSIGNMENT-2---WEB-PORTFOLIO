@@ -1,6 +1,5 @@
 body {
     margin: 10px;
-    color: #022340;
     background-color: #022340; 
 }
 
@@ -50,7 +49,6 @@ video {
 
 /* Form styling */ 
 form {
-    min-height: 100vh;
     background: linear-gradient(to bottom,#022340 0%, #6ca6d9 100%);
     margin: 0 auto;
     padding-top: 10px;
@@ -64,10 +62,10 @@ form h2, h3, h4 {
     margin-bottom: 25px;
 }
 
-.navbar {
-    background-color: #033159;
+section, section form {
+  background: none;
 }
 
-section {
-    background-color: none; 
+.navbar {
+    background-color: #033159;
 }

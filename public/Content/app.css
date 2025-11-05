@@ -1,17 +1,73 @@
 body {
     margin: 10px;
-    color: rgb(32, 46, 109);
-    background-color: rgb(126, 130, 247);
+    color: #022340;
+    background-color: #022340; 
+}
 
-
-h1 {
-    color: rgb(0, 0, 92);
+h1, h2, h3 {
+    color: #275d8c;
     text-align: center;
+    padding: 10px;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
-    color: rgb(255, 255, 255);
+    color: #6ca6d9;
     padding: 10px;
+    text-align: center;
+}
+
+/* Video, image and caption styling */ 
+.video-section video {
+    text-align: center;
+    margin: 20px auto;
+    display: block; 
+    width: 40%;
+    height: auto;
+}
+
+.video-section figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
+}
+
+video {
+    width: 40%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.intro-img img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+}
+
+/* Form styling */ 
+form {
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#022340 0%, #6ca6d9 100%);
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 25px;
+    color: black;
+}
+            
+form h2, h3, h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.navbar {
+    background-color: #033159;
+}
+
+section {
+    background-color: none; 
 }

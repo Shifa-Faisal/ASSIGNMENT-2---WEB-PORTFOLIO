@@ -2,8 +2,41 @@
 <%- include ./partials/main_nav.ejs %>
 
 <style>
-  background-color: #6ca6d9;
-  color: #022340;
+    body {
+        background-color: #6ca6d9;
+        font-family:'Times New Roman', Times, serif; 
+        }
+
+    h1 {
+      color: #275d8c;
+    }
+
+    p {
+        color: white;
+        font-size: 32px;
+        text-align: left:;
+        margin: 30px;
+        line-height: 1.6;
+    }
+    .intro-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .intro-section article {
+      flex: 2;
+    }
+    .intro-section .intro-img {
+      flex: 1;
+    }
+    .intro-section .intro-img img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .video-section {
+      margin-top: 30px;
+    }
 </style>
 
 <h1>About Me</h1>

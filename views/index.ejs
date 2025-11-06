@@ -3,19 +3,28 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %> page</p>
 <%- include ./partials/footer.ejs %>
+
 <style>
-    background-color: #022340;
+    body {
+        background-color: #022340;
+        font-family:'Times New Roman', Times, serif; 
+    }
 </style>
 
-<p> Hi, I am Shifa Faisal & this is my portfolio website, where I showcase my skills, projects, and experiences as a Networking and IT student and an imaginary owner own a bakery!!</p>
-<figure class="sunset-img">
-    <img src="/Asset/images/sunset.jpeg" alt="Picture of sunset">
-</figure>
+<p> Hi, I am Shifa Faisal & this is my portfolio website, where I showcase my skills, projects, and experiences as a Networking and IT student and an owner owner an imaginary bakery!!</p>
 
-<figure class="pizza-img">
-    <img src="/Asset/images/pizza.jpeg" alt="Picture of pizza">
-</figure>
+<style>
+    body {
+        background-color: #022340;
+        color: lightslategray
+        }
+    #home-gallery {
+        text-align: center;
+    }
+</style>
 
-<figure class="food-img">
-    <img src="/Asset/images/food.jpeg" alt="Picture of muffins">
-</figure>
+<div id = "home-gallery">
+    <img src="/Asset/images/sunset.jpeg" alt="Picture of sunset" width="30%">
+    <img src="/Asset/images/pizza.jpeg" alt="Picture of pizza" width="30%">
+    <img src="/Asset/images/food.jpeg" alt="Picture of muffins" width="30%">
+</div>"
